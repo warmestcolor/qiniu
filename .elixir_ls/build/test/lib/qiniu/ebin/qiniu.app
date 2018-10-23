@@ -1,0 +1,11 @@
+{application,qiniu,
+             [{description,"Qiniu Resource (Cloud) Storage SDK for Elixir"},
+              {modules,['Elixir.Qiniu','Elixir.Qiniu.Auth',
+                        'Elixir.Qiniu.ChunkUpload','Elixir.Qiniu.Fop',
+                        'Elixir.Qiniu.Fop.AV','Elixir.Qiniu.Fop.Image',
+                        'Elixir.Qiniu.HTTP','Elixir.Qiniu.PutPolicy',
+                        'Elixir.Qiniu.Resource','Elixir.Qiniu.Uploader',
+                        'Elixir.Qiniu.Utils']},
+              {registered,[]},
+              {vsn,"1.0.0"},
+              {applications,[kernel,stdlib,elixir,logger,httpoison]}]}.
